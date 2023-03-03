@@ -1,14 +1,14 @@
 #include <Adafruit_NeoPixel.h>
 
 // Define the buttons and pin location
-#define BUTTON_PIN_2 2
-#define BUTTON_PIN_3 3
-#define BUTTON_PIN_4 4
-#define BUTTON_PIN_5 5
+#define BUTTON_PIN_2 4
+#define BUTTON_PIN_3 5
+#define BUTTON_PIN_4 6
+#define BUTTON_PIN_5 7
 
 #define PIXEL_PIN 12  // Digital IO pin connected to the NeoPixels.
 
-#define PIXEL_COUNT 10  // Number of LEDs in the Neopixel
+#define PIXEL_COUNT 122  // Number of LEDs in the Neopixel
 
 // Parameter 1 = number of pixels in strip,  neopixel stick has 8
 // Parameter 2 = pin number (most are valid)
